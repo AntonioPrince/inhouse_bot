@@ -11,7 +11,7 @@ services:
       INHOUSE_BOT_CONNECTION_STRING: postgresql+psycopg2://postgres:@/inhouse_bot
 
       # You need to put your Discord Bot token here
-      INHOUSE_BOT_TOKEN: ODU2NjQ4OTIxOTc1MjI2Mzk4.YNEGeg.vNfw_BBhTFY6AOb49quOMmQt9dM
+      INHOUSE_BOT_TOKEN: ${{secrets.tokenharem}}
 
       # Those emoji help the bot look good and are defined with discord.py emoji syntax
       INHOUSE_BOT_TOP_EMOJI: '<:Top:856650618848280576>'
